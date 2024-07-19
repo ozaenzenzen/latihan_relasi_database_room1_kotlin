@@ -55,4 +55,7 @@ dependencies {
 
     implementation(libs.androidx.room.ktx)
     ksp(libs.room.compiler)
+
+    implementation(libs.lifecycle.livedata.ktx)
+
 }
